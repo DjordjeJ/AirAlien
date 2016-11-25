@@ -1,0 +1,103 @@
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+ main {
+   flex: 1 0 auto;
+ }
+ .slider .indicators .indicator-item{
+   background-color: #607d8b  !important;
+ }
+ .form-wrapper {
+   position: absolute;
+   height: calc(100vh);
+   margin-top: 64px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   z-index: 997;
+   top: 0;
+   width: 100%;
+ }
+ .buttons-wrapper a {
+   pointer-events: auto;
+ }
+.trazi{
+  height: 50px !important;
+  margin: 0px !important;
+  width:60%;
+}
+
+.malaSlika{
+  max-width: 120px;
+  height:auto;
+  float:left;
+  margin-right:30px;
+}
+.OkruglaSlika{
+  height:120px !important;
+  width:120px;
+  margin: 10px 5px 0px 5px;
+}
+.krug100{
+  height: 100px !important;
+  width: 100px!important;
+}
+.sirina100{
+  width: 100%;
+}
+
+.boldHover a:hover {
+  font-weight: bold;
+}
+.Levo{
+  margin-left: 15px !important;
+}
+.prvi{
+  margin-top: 30px !important;
+}
+.masnifont{
+  font-weight: bold;
+}
+.bottom-line{
+  border-bottom: 1px solid gray;
+  margin: 5px 0px 5px 0px;
+}
+.margin15{
+  padding: 15px 15px 15px 15px !important;
+}
+.margin0{
+  margin: 0px !important;
+  padding:0px;
+}
+.margineT0B0{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.breadcrumb:before{
+  color:#607d8b !important;
+}
+
+ul.tabs{
+  flex-direction: column !important;
+  height:auto;
+  color:blue
+}
+.indicator {
+  background-color: #607d8b  !important;
+}
+#ispodNav{
+  margin-top:-64px;
+}
+.pointHand{
+  cursor:pointer;
+}
+
+.modal {
+  width: 25% !important;
+  height: 90% !important ;
+  /*overflow-y: hidden !important ;*/
+  }

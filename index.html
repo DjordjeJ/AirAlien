@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Adria BNB | Početna</title>
+      <link rel="icon"
+      type="image/png"
+      href="http://icons.iconarchive.com/icons/icons8/halloween/256/skull-2-icon.png">
+      <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+      <!-- Compiled and minified CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+       <!-- Compiled and minified JavaScript -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+       <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!--head-->
+    </head>
+
+    <body class="grey lighten-3">
+    <!--NAVIGACIJA-->
+      <div class="navbar-fixed ">
+        <nav class="transparent z-depth-0">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li accesskey=""><a href="Pomoć.html">Pomoć</a></li>
+              <li><a href="#modal1" class="modal-trigger">Uloguj se</a></li>
+              <li><a href="Registracija.html" >Registruj se</a></li>
+              <li><a class="waves-effect waves-light btn" href="Domacin.html">Postani Domaćin</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a href="Pomoć.html">Pomoć</a></li>
+              <li><a href="Uloguj-se.html">Uloguj se</a></li>
+              <li><a href="Registracija.html">Registruj se</a></li>
+              <li><a class="waves-effect waves-light btn" href="Domacin.html">Postani Domaćin</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal z-depth-2">
+        <div class="modal-content">
+          <center>
+            <img class="responsive-img" style="width: 50px;" src="http://icons.iconarchive.com/icons/icons8/halloween/256/skull-2-icon.png" />
+            <!--div class="section"></div>
+            <!--h5 class="blue-grey-text">Please, login into your account</h5>
+            <div class="section"></div-->
+                <form class="col s12" method="post">
+                  <div class="row">
+                    <div class="col s12">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input class="validate" type="email" name="email" id="email" />
+                      <label for="email">Enter your email</label>
+                    </div>
+                  </div>
+                  <div class="row margin0">
+                    <div class="input-field col s12">
+                      <input class="validate" type="password" name="password" id="password" />
+                      <label for="password">Enter your password</label>
+                    </div>
+                    <label style="float: right;">
+      								<a class="red-text darken-3" href="#!"><b>Forgot Password?</b></a>
+      							</label>
+                  </div>
+                  <br />
+                  <center>
+                    <div class="row">
+                      <button type="submit" name="btn_login" class="col s12 btn btn-large waves-effect blue-grey margin0">Login</button>
+                    </div>
+                  </center>
+                </form>
+            <a href="#!">Create account</a>
+          </center>
+        </div>
+        <!--div class="modal-footer">
+        </div-->
+      </div>
+      <!--SLAJDER-->
+      <div class="slider" id="ispodNav">
+          <ul class="slides">
+            <li>
+              <img src="https://source.unsplash.com/category/technology"> <!-- random image -->
+              <div class="caption center-align  hide-on-small-only">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="https://source.unsplash.com/category/buildings"> <!-- random image -->
+              <div class="caption left-align  hide-on-small-only">
+                <h3>Left Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="https://source.unsplash.com/category/people"> <!-- random image -->
+              <div class="caption right-align  hide-on-small-only">
+                <h3>Right Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="https://source.unsplash.com/category/nature"> <!-- random image -->
+              <div class="caption center-align  hide-on-small-only">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+          </ul>
+          <div class="form-wrapper">
+            <form class="row trazi z-depth-3 white valign-wrapper">
+              <div class="input-field col l2 m6 s6 trazi">
+                <input id="place" placeholder="Mesto" type="text" class="validate center">
+              </div>
+              <div class="col s2 trazi valign hide-on-med-and-down">
+                <label for="PocetniDatum" class=""><data value="Pocetni Datum"></data></label>
+                <input id="PocetniDatum" placeholder="Od" type="date" class="datepicker center">
+              </div>
+              <div class="col s1 valign center hide-on-med-and-down">
+                <i class="material-icons">trending_flat</i>
+              </div>
+              <div class="col s2 valign trazi hide-on-med-and-down">
+                <label for="KrajnjiDatum" class=""><data value="Krajnji Datum"></data></label>
+                <input id="KrajnjiDatum" placeholder="Do" type="date" class="datepicker center">
+              </div>
+              <div class="col s2 valign hide-on-med-and-down">
+                <div class="input-field trazi col s12 valign">
+                    <select>
+                      <option value="0">1 gost</option>
+                      <option value="1">2 gosta</option>
+                      <option value="2">3 gosta</option>
+                      <option value="3">4 gosta</option>
+                      <option value="3">4+ gostiju</option>
+                    </select>
+                </div>
+              </div>
+              <div class="col s2 valign center hide-on-med-and-down">
+                <a class="waves-effect waves-light btn col s12">Nadji!</a>
+              </div>
+              <!--Dva dugmeta, small vodi na str gde treba ukucati od do, posto su oni hajdovani-->
+              <div class="col m6 s6 valign center hide-on-large-only">
+                <a class="waves-effect waves-light btn col s12">OD-DO</a>
+              </div>
+            </form>
+          </div>
+      </div>
+
+      <!--Horizontalna kartica-->
+      <div class="container">
+        <div class="row" >
+          <div class="prvi col s12">
+            <div class="card horizontal">
+              <div class="card-image hide-on-small-only">
+                <img src="https://source.unsplash.com/random">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content center-align">
+                  <h3>Prvi podnaslov</h3>
+                  <p>I am a very simple card. I am good at containing small bits of information.</p>
+                </div>
+                <div class="card-action center-align">
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <br/>
+      <h5 class="center-align ">Explore the world</h4>
+      <h6 class="center-align">See where people are traveling, all around the world.</h2>
+      <br/>
+      <!--GRID-->
+      <div class="row">
+        <div class="col s12 m12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://source.unsplash.com/random">
+              <span class="card-title" id="masnifont">oš ovde?</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4">
+          <div class="card">
+              <div class="card-image">
+                <img src="https://source.unsplash.com/random">
+                <span class="card-title" id="masnifont">oš ovde?</span>
+              </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://source.unsplash.com/random">
+              <span class="card-title" id="masnifont">oš ovde?</span>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col s12 m12 l4">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://source.unsplash.com/random">
+                <span class="card-title" id="masnifont">oš ovde?</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l4">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://source.unsplash.com/random">
+                <span class="card-title" id="masnifont">oš ovde?</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l4">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://source.unsplash.com/random">
+                <span class="card-title" id="masnifont">oš ovde?</span>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col s12 m12 l4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/random">
+                  <span class="card-title" id="masnifont">oš ovde?</span>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m12 l4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/random">
+                  <span class="card-title" id="masnifont">oš ovde?</span>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m12 l4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/random">
+                  <span class="card-title" id="masnifont">oš ovde?</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--Container zatvoren-->
+      <footer class="page-footer blue-grey">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Footer Content</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2014 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+
+      <!--Skripte i zajebancije-->
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src=scrollNav.js></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+      <script>
+        $( document ).ready(function(){
+          $(".button-collapse").sideNav();
+
+          $('.slider').slider({full_width: true});
+          $('.slider').slider({height: 580});
+
+          Materialize.updateTextFields();
+          $('select').material_select();
+
+        });
+        $('.datepicker').pickadate({
+          selectMonths: true, // Creates a dropdown to control month
+          selectYears: 15 // Creates a dropdown of 15 years to control year
+        });
+
+        $(document).ready(function(){
+          // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+          $('.modal-trigger').leanModal();
+          $('.modal').modal();
+          $('#modal1').modal('open');
+          $('#modal1').modal('close');
+           dismissible: true;
+        });
+
+        </script>
+    </body>
+  </html>

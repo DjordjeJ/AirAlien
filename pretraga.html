@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Adria BNB | Pretraga</title>
+      <link rel="icon"
+      type="image/png"
+      href="http://icons.iconarchive.com/icons/icons8/halloween/256/skull-2-icon.png">
+      <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+      <!-- Compiled and minified CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+       <!-- Compiled and minified JavaScript -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+       <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body class="grey lighten-3">
+    <!--NAVIGACIJA-->
+        <nav>
+          <div class="nav-wrapper blue-grey">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+
+              <li><a href="Pomoć.html">Pomoć</a></li>
+              <li><a href="Uloguj-se.html">Uloguj se</a></li>
+              <li><a href="Registracija.html">Registruj se</a></li>
+              <li><a class="waves-effect waves-light btn" href="Domacin.html">Postani Domaćin</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a href="Pomoć.html">Pomoć</a></li>
+              <li><a href="Uloguj-se.html">Uloguj se</a></li>
+              <li><a href="Registracija.html">Registruj se</a></li>
+              <li><a class="waves-effect waves-light btn" href="Domacin.html">Postani Domaćin</a></li>
+            </ul>
+          </div>
+      </nav>
+      <div class="container">
+        <div class="row prvi">
+          <div class="col l8 m8 s12">
+            <div class="row">
+              <div class="col m3 s12">
+                <div class="input-field">
+                  <input id="start_date" type="date" class="datepicker center">
+                  <label for="start_date">Od<data value="Pocetni Datum"></data></label>
+                </div>
+              </div>
+              <div class="col m3 s12">
+                <div class="input-field">
+                  <input id="end_date" type="date" class="datepicker center">
+                  <label for="end_date">Do<data value="Pocetni Datum"></data></label>
+                </div>
+              </div>
+              <div class="col m3 s12">
+                <div class="input-field">
+                  <input id="min_price" type="text" class="validate">
+                  <label for="min_price">Cena Od</label>
+                </div>
+              </div>
+              <div class="col m3 s12">
+                <div class="input-field">
+                  <input id="max_price" type="text" class="validate">
+                  <label for="max_price">Do</label>
+                </div>
+              </div>
+            </div>
+            <div class="row prvi">
+              <div class="form">
+                <div class="col m4 s12">
+                  <input type="checkbox" id="test1" />
+                  <label for="test1">soba</label>
+                </div>
+                <div class="col m4 s12">
+                  <input type="checkbox" id="test2" />
+                  <label for="test2">stan</label>
+                </div>
+                <div class="col m4 s12">
+                  <input type="checkbox" id="test3" />
+                  <label for="test3">deljenje sobe</label>
+                </div>
+              </div>
+            </div>
+            <div class="row prvi">
+              <div class="col m4 s12">
+                <!-- Dropdown Trigger -->
+                <a class='dropdown-button btn white blue-grey-text' href='#' data-activates='dropdown1'>broj soba</a>
+                <!-- Dropdown Structure -->
+                <ul id='dropdown1' class='dropdown-content'>
+                  <li><a href="#!">one</a></li>
+                  <li><a href="#!">two</a></li>
+                  <li><a href="#!">three</a></li>
+                </ul>
+              </div>
+              <div class="col m4 s12">
+                <a class='dropdown-button btn white blue-grey-text' href='#' data-activates='dropdown1'>broj kreveta</a>
+                <ul id='dropdown1' class='dropdown-content'>
+                  <li><a href="#!">one</a></li>
+                  <li><a href="#!">two</a></li>
+                  <li><a href="#!">three</a></li>
+                </ul>
+              </div>
+              <div class="col m4 s12">
+                <a class='dropdown-button btn white blue-grey-text' href='#' data-activates='dropdown1'>broj kupatila</a>
+                <ul id='dropdown1' class='dropdown-content'>
+                  <li><a href="#!">one</a></li>
+                  <li><a href="#!">two</a></li>
+                  <li><a href="#!">three</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row prvi">
+              <div class="col m4 s12">
+                <input type="checkbox" id="1" />
+                <label for="1">pravilo1</label>
+              </div>
+              <div class="col m4 s12">
+                <input type="checkbox" id="2" />
+                <label for="2">pravilo2</label>
+              </div>
+              <div class="col m4 s12">
+                <input type="checkbox" id="3" />
+                <label for="3">pravilo3</label>
+              </div>
+              <div class="col m4 s12">
+                <input type="checkbox" id="4" />
+                <label for="4">pravilo4</label>
+              </div>
+              <div class="col m4 s12">
+                <input type="checkbox" id="5" />
+                <label for="5">pravilo</label>
+              </div>
+              <div class="col m4 s12">
+                <input type="checkbox" id="6" />
+                <label for="6">pravilo</label>
+              </div>
+              <div class="col m4 s12">
+                <input type="checkbox" id="7" />
+                <label for="7">pravilo</label>
+              </div>
+            </div>
+            <div class="row prvi">
+              <div class="col m6 s12">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="https://source.unsplash.com/random">
+                  </div>
+                  <div class="card-action">
+                    <a href="#">obejakt1</a>
+                    <div class="grey-text">
+                      iznajmljivanje cele kuce - za 4 gosta
+                      <br />
+                      <i class="material-icons">star</i>
+                      <i class="material-icons">star</i>
+                      <i class="material-icons">star</i>
+                      <i class="material-icons">star</i>
+                      <i class="material-icons">star</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col m6 s12">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="https://source.unsplash.com/random">
+                  </div>
+                  <div class="card-action">
+                    <a href="#">objekat2</a>
+                    <div class="grey-text">
+                      iznajmljivanje cele kuce - za 4 gosta
+                      <br />
+                      <i class="material-icons">star</i>
+                      <i class="material-icons">star</i>
+                      <i class="material-icons">star</i>
+                      <i class="material-icons">star</i>
+                      <i class="material-icons">star</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row prvi blue-grey-text">
+              <div class="col s12 center">
+                <nav class="z-depth-0">
+                  <div class="nav-wrapper grey lighten-3 blue-grey-text">
+                    <div class="col s12">
+                      <a href="#!" class="breadcrumb blue-grey-text">First</a>
+                      <a href="#!" class="breadcrumb blue-grey-text">Second</a>
+                      <a href="#!" class="breadcrumb blue-grey-text">Third</a>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="col l4 m3 s12">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d386950.6511603643!2d-73.70231446529533!3d40.738882125234106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNueva+York!5e0!3m2!1ses-419!2sus!4v1445032011908" height="650" width="100%" frameborder="0" style="border:0"></iframe>
+          </div>
+        </div>
+      </div>
+      <!--Futer-->
+      <footer class="page-footer blue-grey">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Footer Content</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2014 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+      <!--Skripte i zajebancije-->
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+      <script>
+        $( document ).ready(function(){
+        $(".button-collapse").sideNav();
+        $('.slider').slider({full_width: true});
+        });
+        $('.datepicker').pickadate({
+          selectMonths: true, // Creates a dropdown to control month
+          selectYears: 15 // Creates a dropdown of 15 years to control year
+        });
+      </script>
+    </body>
+  </html>
