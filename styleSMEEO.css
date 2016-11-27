@@ -1,0 +1,32 @@
+.vrh{
+   height: 22px;
+   border-style: outset ;
+   border-width: 0px 0px 1px 0px;
+}
+#height100{
+  height: 50px;
+}
+.margin0{
+  margin: 0px !important;
+  padding:0px;
+}
+.navUl{
+  color: black !important;
+  margin-right: 10px !important;
+  margin-top: 10px !important;
+  height: 500px;
+}
+.navUl ul li{
+  color: black !important;
+  margin-right: 10px !important;
+  margin-top: 10px !important;
+    height: 500px;
+}
+.sredina{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.NavUl ul li a:hover {
+
+}
