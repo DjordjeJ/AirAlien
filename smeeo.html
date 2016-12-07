@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>SMEEO Inženjering</title>
-    <link rel="icon" type="image/png" href="http://icons.iconarchive.com/icons/icons8/halloween/256/skull-2-icon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
-    <link rel="stylesheet" type="text/css" href="styleSMEEO.css">
+    <link rel="stylesheet" type="text/css" href="css/styleSMEEO.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,30 +23,33 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row margin0">
       <!-- SIDE NAVIGATION-->
-      <div class="col l3 m1 s2 grey" style="height:740px">
+      <div class="col l3 m1 s2 grey lighten-4 margin0" id="columnOne">
         <!--SideNAV LARGE-->
-        <div class="col s12">
+        <div class="col s12 hide-on-med-and-down">
           <ul class="navigacija">
-            <li class="right-align"><a href="#" >link1</a></li>
-            <li class="right-align"><a href="#">link2</a></li>
-            <li class="right-align"><a href="#">link3</a></li>
-            <li class="right-align"><a href="#">link4</a></li>
-            <li class="right-align"><a href="#">link5</a></li>
-            <li class="right-align"><a href="#">link6</a></li>
-            <li class="right-align"><a href="#">link7</a></li>
-            <li class="right-align"><a href="#">link8</a></li>
+            <li class="right-align"><a href="#">Naslovna</a></li> <!--naslovna nema samu sebe linkovano!-->
+            <li class="right-align"><a href="#">O nama</a></li>
+            <li class="right-align"><a href="#">CERTUSS</a></li>
+            <li class="right-align"><a href="#">Obuka</a></li>
+            <li class="right-align"><a href="#">Periodični pregled</a></li>
+            <li class="right-align"><a href="#">Komentar pravilnika</a></li>
+            <li class="right-align"><a href="#">Priručnik</a></li>
+            <li class="right-align"><a href="#">Kontakt</a></li>
           </ul>
         </div>
         <!--SideNAV MED and smaller-->
-        <div class="navbar-fixed">
+        <div class="navbar-fixed" >
           <nav class="transparent z-depth-0">
-            <div class="nav-wrapper ulBlock">
+            <div class="nav-wrapper-fixed ulBlock">
               <!--a href="#!" class="brand-logo">Logo</a-->
-              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons grey-text text-darken-2">menu</i></a>
               <ul class="side-nav" id="mobile-demo">
                 <li accesskey=""><a href="#">Pomoć</a></li>
+                <li><a href="#" >Registruj se</a></li>
+                <li><a href="#" >Registruj se</a></li>
+                <li><a href="#" >Registruj se</a></li>
                 <li><a href="#" >Registruj se</a></li>
                 <li><a href="#" >Registruj se</a></li>
                 <li><a href="#" >Registruj se</a></li>
@@ -59,13 +62,79 @@
 
       </div>
       <!--Glavni sadrzaj-->
-      <div class="col l9 m11 s10 blue" style="height:740px">
-
+      <div class="col l9 m11 s10" id="columnTwo">
+        <div class="container">
+          <div class="row hide-on-small-only height70">
+            <br>
+          </div>
+          <div class="row">
+            <div class="col s12 m12 l6 ">
+              <div class="card transparent z-depth-0">
+                <div class="card-image">
+                  <a href="#">  <img src="images/logoSMEEO.png" alt="Dobrodosli! Logo"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col s12 m5">
+              <div class="card z-depth-0">
+                <h4> SMEEO Inženjering d.o.o.</h4>
+                <p>
+                  Preduzeće je osnovano 1989. godine.
+                  Specijalizovano je za projektovanje, montažu, remont i održavanje kotlovskih postrojenja, gasnih i elektroinstalacija, uređaja za sagorevanje i opreme za upravljnje kotlovskim postrojenjima.
+                  Preduzeće SMEEO Inženjering d.o.o. vrši puštanje u rad i izvođenje probnih pogona najsloženijih energetskih kotlova i kotlarnica i drugih instalacija u sektoru potrošnje gasa i obuku stručnih lica po posebnom Programu za praktičan rad u konkretnim kotlovskim i drugim gasnim toplotnim postrojenjima.
+                </p>
+              </div>
+            </div>
+            <div class="col s12 m7">
+              <div class="card z-depth-0">
+                <div class="slider">
+                    <ul class="slides">
+                      <li>  <img src="images/slajd1.png"> <!-- random image --> </li>
+                      <li>  <img src="images/slajd2.png"> <!-- random image --> </li>
+                      <li>  <img src="images/slajd3.png"> <!-- random image --> </li>
+                      <li>  <img src="images/slajd4.png"> <!-- random image --> </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <!--footer-->
+    <footer class="page-footer margin0 transparent">
+      <!--div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer Content</h5>
+            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div-->
+      <div class="footer-copyright margin0 grey lighten-4">
+        <div class="row margin0">
 
-
-
+          <div class="col l3 m1 s2"></div>
+          <div class="col l9 m11 s10 white">
+            <div class="container">
+              <a class="grey-text text-lighten-1 right" href="#!">© 2016 SMEEO Inženjering</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!---->
     <!--Skripte-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -74,9 +143,15 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 
+
     <script>
+    $("#columnOne").height($("#columnTwo").height()+60);
     $( document ).ready(function(){
       $(".button-collapse").sideNav();
+      $('.slider').slider({full_width: true});
+
+
+
     });
 
 
