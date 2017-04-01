@@ -6,11 +6,26 @@ body {
 main {
   flex: 1 0 auto;
 }
-
+.top0{
+  margin-top: 0; !important;
+  padding-top: 0px; !important;
+}
+.top15{
+  margin-top: 15px;
+}
+.left10{
+  margin-left: 15px;
+}
 .vrh{
    height: 22px;
-   border-style: outset ;
-   border-width: 0px 0px 1px 0px;
+}
+.sredina{
+  height: 100%;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+.tekst-sredina{
+  text-align:center;
 }
 .margin0{
   margin: 0px !important;
@@ -28,7 +43,8 @@ main {
 .navigacija li:hover{
   height: 70px;
   padding-top: 20px;
-  border-style: solid;
+  background-color: #d9cd91 ;
+  /*  border-style: solid;
   border-color: #757575   ;
   border-width: 5px;
   /*boreder*/
@@ -41,5 +57,8 @@ main {
   height: 70px !important;
 }
 .slider .indicators .indicator-item.active {
-    background-color: grey !important;
+    background-color: #d9cd91 !important;
 }
+
+
+/*zlatna http://www.colorhexa.com/ccbc6b*/
